@@ -1,0 +1,367 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #212931;
+}
+.title{
+    color: #ece5e5;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.major h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.major p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    color: #ece5e5;
+    margin-top:150px
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:200px;
+    padding: 50px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ece5e5;
+    border: thick solid #ece5e5;
+    border-radius: 10px;
+    padding: 10px; /* 添加一些内边距以使边框更明显 */
+}
+
+.logo a:hover {
+    color: #30bfe3; /* 设置链接鼠标悬停时的文本颜色 */
+    border-color: #30bfe3; /* 设置链接鼠标悬停时的边框颜色 */
+}
+
+.buttonicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+
+
+aside{
+    background-color: #ece5e5;
+}
+body {
+    margin: 0;
+    padding:8%;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 自动调整列数，每列最小宽度为300px */
+    grid-gap: 20px; /* 设置元素之间的间距 */
+}
+
+.post {
+    background-color: #f2f2f2; /* 区块背景色 */
+    padding: 20px;
+}
+
+.pagelink {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pagelink li {
+    margin-bottom: 10px;
+}
+
+.pagelink li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.pagelink li a:hover {
+    color: #666;
+}
+
+.featured {
+    grid-column: span 2; /* 跨越两列 */
+}
+
+.image.main {
+    max-width: 100%; /* 圖片最大宽度为父元素的100% */
+    height: auto; /* 自适应高度 */
+}
+
+.from {
+    display: block; /* 使来源信息独立一行显示 */
+    margin-top: 10px; /* 设置来源信息与其他内容的间距 */
+    font-style: italic;
+    color: #999;
+}
+
+
+
+
+
+
+
+
+/**/
+#nav {
+    display: flex;
+    justify-content: space-between; /*將.link和.icon 分别放置在最左和最右 */
+    align-items: center; /* 在垂直方向上居中对齐 */
+    background-color: #f2f2f2; /* 设置浅色背景色 */
+    padding: 20px; /* 增加内边距以使内容居中 */
+}
+
+.link, .icon {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.link li, .icon li {
+    margin-right: 10px; /* 可以增加一些右側間距以分隔的元素 */
+}
+
+.link a, .icon a {
+    text-decoration: none;
+    color: #333;
+}
+
+.link a:hover, .icon a:hover {
+    color: #666;
+}
+
+
+
+
+/**/
+.link {
+    display: grid;
+    grid-auto-flow: column; /* 自動將元素列在一行上 */
+    grid-gap: 10px; /* 間距 */
+}
+
+.link li {
+    list-style-type: none;
+}
+
+.link a {
+    text-decoration: none;
+    color: #333;
+}
+
+.link a:hover {
+    color: #666;
+}
+
+
+
+
+
+.icon {
+    display: grid;
+    grid-auto-flow: column; 
+    grid-gap: 10px; 
+}
+
+.icon li {
+    list-style-type: none;
+}
+
+.icon a {
+    text-decoration: none;
+    color: #333;
+}
+
+.icon a:hover {
+    color: #666;
+}
+
+
+
+/**/
+
+
+.actions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.actions li {
+    display: inline-block;
+}
+
+.actions a {
+    display: block;
+    width: 50px; /* 设置宽度以适应图标大小 */
+    height: 50px; /* 设置高度以适应图标大小 */
+    background: url(插圖.png) no-repeat center center; /* 替换为你的图标URL */
+    background-size: contain; /* 调整背景大小以适应图标 */
+    text-indent: -9999px; /* 隐藏文字 */
+    overflow: hidden; /* 确保文本不会显示 */
+    border: none; /* 移除边框 */
+}
+
+.actions a:hover {
+    background-color: #30bfe3; /* 设置悬停时的背景颜色 */
+}
+
+
+/**/
+.pagelink {
+    display: flex; /* 使 li 元素水平排列 */
+    list-style-type: none; /* 移除默认列表样式 */
+    padding: 0; /* 移除内边距 */
+    margin: 0; /* 移除外边距 */
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+.pagelink li {
+    margin: 0; /* 移除 li 元素的默认外边距 */
+    padding: 0 10px; /* 增加左右内边距 */
+    position: relative; /* 为伪元素定位做准备 */
+}
+
+.pagelink li:not(:last-child)::after {
+    content: ''; /* 生成伪元素内容 */
+    position: absolute; /* 绝对定位 */
+    right: 0; /* 竖线在 li 元素的右侧 */
+    top: 50%; /* 竖线在 li 元素的垂直居中位置 */
+    transform: translateY(-50%); /* 调整竖线的垂直位置 */
+    width: 1px; /* 竖线的宽度 */
+    height: 60%; /* 竖线的高度 */
+    background-color: #ccc; /* 竖线的颜色 */
+}
+
+.pagelink a {
+    text-decoration: none; /* 移除链接的下划线 */
+    color: #000; /* 设置链接的颜色 */
+    white-space: nowrap; /* 防止链接文本换行 */
+}
+
+.pagelink a:hover {
+    color: #30bfe3; /* 设置链接悬停时的颜色 */
+}
+
+
+
+/**/
+main{
+    background-color:#f2f2f2;
+    padding: 10%;
+}
+/**/
+footer{
+    color: #6b6666;
+    padding: 20px;
+    margin-top: 0%;
+    font-weight: bolder;
+    text-align:center;
+}
+h3{
+    text-align:center;
+}
+
+.icon a:hover {
+    color:#30bfe3 ;
+}
+
+/**/
+#dd a{
+    text-decoration: none;
+    color: #333;
+}
+#dd a:hover {
+    color: #666;
+}
+
+/**/
+/**/
+#rr a{
+    text-decoration: none;
+    color: #333;
+}
+#rr a:hover {
+    color: #666;
+}
+
+/**/
+/**/
+#gr a{
+    text-decoration: none;
+    color: #333;
+}
+#gr a:hover {
+    color: #666;
+}
+/**/
+/**/
+#an a{
+    text-decoration: none;
+    color: #333;
+}
+#an a:hover {
+    color: #666;
+}
+
+/**/
+
+::selection {
+    background-color: #39c5bb;
+    color: black;
+}
+/**/
+element {
+    cursor: url(插圖22.png), auto; /*滑鼠鼠標*/
+}
+
+.img {
+    max-width: 100%; /* 图片最大宽度为父元素的100% */
+    height: auto; /* 自适应高度 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
